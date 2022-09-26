@@ -6,7 +6,7 @@
 // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
 #[tauri::command]
 fn greet(name: &str) -> String {
-    format!("Tsauki, {}! Ma arvan, et sa oled neeger, sest see sitt pole veel valmis!", name)
+    format!("Tra sa kirjutasid, {}. See pole veel valmis nigga...!", name)
 }
 
 fn main() {

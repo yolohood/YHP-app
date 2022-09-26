@@ -6,16 +6,18 @@ span.logos > a > span {
   overflow: inherit !important;
 }
 
-.logo.next:hover {
-  filter: drop-shadow(0 0 2em #36373f);
+.logo.yhp:hover {
+  filter: drop-shadow(0 0 2em #396cd8);
 }
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafb);
+.logo.ethereal:hover {
+  filter: drop-shadow(0 0 2em #396cd8);
 }
-
-@media (prefers-color-scheme: dark) {
-  .logo.next:hover {
-    filter: drop-shadow(0 0 2em #ffff);
+.logo.celestial:hover {
+    filter: drop-shadow(0 0 2em #396cd8);
+}
+/* @media (prefers-color-scheme: dark) {
+  .logo.celestial:hover {
+    filter: drop-shadow(0 0 2em #61dafb);
   }
-}
+} */

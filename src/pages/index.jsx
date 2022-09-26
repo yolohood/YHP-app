@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>YOLO HOOD PRODUCTIONS!</h1>
+      <h1>YOLO HOOD PRODUCTIONS</h1>
       <div className="row">
         <span className="logos">
           <a href="https://yhp.ee/" target="_blank">
@@ -30,7 +30,7 @@ function App() {
           </a>
         </span>
         <span className="logos">
-          <a href="https://yhp.ee/" target="_blank">
+          <a href="https://www.youtube.com/watch?v=KeXJCtjNe7I" target="_blank">
             <Image
               width={144}
               height={144}
@@ -54,20 +54,20 @@ function App() {
       </div>
 
       <p>Kliki logodel, et saada meie tegevuse kohta täpsemat infot.</p>
-      <iframe src="https://radio.yhp.ee/public/yhp_radio/embed?theme=dark" frameborder="0" allowtransparency="false"></iframe>
+      <iframe src="https://radio.yhp.ee/public/yhp_radio/embed?theme=light" frameborder="0" allowtransparency="true"></iframe>
       <div className="row">
         <div>
-          <input
+          {/* <input
             id="greet-input"
             onChange={(e) => setName(e.currentTarget.value)}
-            placeholder="ETA SON..."
-          />
-          <button type="button" onClick={() => greet()}>
-            ETA SON
-          </button>
+            placeholder="ETA SON... ära kirjuta siia midagi"
+          /> */}
+          {/* <button type="button" onClick={() => greet()}>
+            ÄRA VAJUTA SIIA
+          </button> */}
         </div>
       </div>
-
+      Designed with ❤️ in <a href="https://yhp.ee" target="_blank">YOLO HOOD</a> by <a href="https://andrias.ee" target="_blank" >Andrias</a>
       <p>{greetMsg}</p>
     </div>
   );
