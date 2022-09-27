@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { invoke } from "@tauri-apps/api/tauri";
 import Image from "next/image";
-import celestialLogo from "../assets/celestial.png";
-import etherealLogo from "../assets/ethereal.png";
-import yhpLogo from "../assets/yolo-hood-productions.svg";
+import celestialLogo from "../assets/transparent-celestial.png";
+import etherealLogo from "../assets/transparent-ethereal.png";
+import yhpLogo from "../assets/transparent-yolo-hood-productions.png";
 
 function App() {
   const [greetMsg, setGreetMsg] = useState("");
@@ -65,9 +65,9 @@ function App() {
           {/* <button type="button" onClick={() => greet()}>
             ÄRA VAJUTA SIIA
           </button> */}
+Designed with ❤️ at <a className="logos" href="https://yhp.ee" target="_blank">YOLO HOOD</a> by <a className="logos" href="https://andrias.ee" target="_blank" >Andrias</a>
         </div>
       </div>
-      Designed with ❤️ in <a href="https://yhp.ee" target="_blank">YOLO HOOD</a> by <a href="https://andrias.ee" target="_blank" >Andrias</a>
       <p>{greetMsg}</p>
     </div>
   );
