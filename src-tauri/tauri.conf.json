@@ -7,8 +7,8 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "yhp",
-    "version": "2.0.6"
+    "productName": "YOLO HOOD PRODUCTIONS",
+    "version": "2.0.7"
   },
   "tauri": {
     "allowlist": {
@@ -58,7 +58,7 @@
         "fullscreen": false,
         "height": 667,
         "resizable": true,
-        "title": "YOLO HOOD PRODUCTIONS 2.0.6",
+        "title": "YOLO HOOD PRODUCTIONS 2.0.7",
         "width": 375
       }
     ]
