@@ -44,7 +44,7 @@ function App() {
         </span>
       </div>
       <p>Kliki logodel, et saada meie tegevuse kohta täpsemat infot.</p>
-      <iframe src="https://radio.yhp.ee/public/yhp_radio/embed?theme=light" frameborder="0" allowtransparency="true"></iframe>
+<iframe src="https://radio.yhp.ee/public/yhp_radio/embed?theme=light" frameborder="0" allowtransparency="true"></iframe>
       <div className="row">
         <div>
 Designed with ❤️ at <a className="logos" href="https://yhp.ee" target="_blank">YOLO HOOD</a> by <a className="logos" href="https://andrias.ee" target="_blank" >Andrias</a>

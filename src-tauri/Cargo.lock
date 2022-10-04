@@ -3607,7 +3607,7 @@ checksum = "d2d7d3948613f75c98fd9328cfdcc45acc4d360655289d0a7d4ec931392200a3"
 
 [[package]]
 name = "yolo_hood_productions"
-version = "2.0.7"
+version = "2.0.8"
 dependencies = [
  "serde",
  "serde_json",
